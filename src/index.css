@@ -16,15 +16,17 @@ code {
 .header {
     position: sticky;
     top: 0;
+    margin: 0 auto;
     background: white;
     display: flex;
     align-items: center;
     color: rgb(33, 93, 121);
+    text-align: center;
 }
 
 .header button {
     padding: 5px;
-    margin: 10px;
+    margin-left: 10px;
     border: none;
     border-radius: 5px;
     background-color: rgb(245, 231, 178);
@@ -72,14 +74,12 @@ h1 {
 }
 
 .profileImage {
-    filter: none;
-    height: 150px;
+    height: 120px;
     position: fixed;
-    top: 12.5em;
+    top: 13em;
     left: 45%;
+    display: inline-block;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 .info {
