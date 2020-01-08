@@ -20,19 +20,24 @@ code {
     background: white;
     display: flex;
     align-items: center;
+    color: rgb(33, 93, 121);
 }
 
 .header button {
     padding: 5px;
     margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 231, 178);
+    color: rgb(33, 93, 121);
 }
 
 h1 {
     font-size: 48px;
-    font-weight: lighter;
+    font-weight: initial;
     margin: 0 auto;
     text-align: center;
-    font-family: monospace;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .userList {
@@ -56,7 +61,6 @@ h1 {
 .profileDetails {
     text-align: center;
     margin-top: 40px;
-    /* margin-left: 10px; */
 }
 
 .bcg {
@@ -81,4 +85,10 @@ h1 {
 
 .info {
     margin: 20px;
+}
+
+.info span {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: rgb(33, 93, 121);
 }
