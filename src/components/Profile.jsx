@@ -4,16 +4,19 @@ function Profile(props) {
   const { index } = props;
   return (
     <div className="profileDetails">
-      <div
-        className="bcg"
-        style={{ backgroundImage: `url(${index.profileImage})` }}
-      ></div>
-
-      <img
-        className="profileImage"
-        src={index.profileImage}
-        alt={"Profile pic of" + index.firstName}
-      />
+      <div className="profile-top">
+        <div
+          className="bcg"
+          style={{ backgroundImage: `url(${index.profileImage})` }}
+        ></div>
+        <div className="profileImage-container">
+          <img
+            className="profileImage"
+            src={index.profileImage}
+            alt={"Profile pic of" + index.firstName}
+          />
+        </div>
+      </div>
 
       <div className="info">
         <span>

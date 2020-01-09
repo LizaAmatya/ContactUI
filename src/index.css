@@ -73,12 +73,19 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.profile-top {
+    position: relative;
+}
+
+.profileImage-container {
+    position: absolute;
+    width: 100%;
+    top: 8em;
+    display: block;
+    margin: 0 auto;
+}
+
 .profileImage {
-    height: 120px;
-    position: fixed;
-    top: 13em;
-    left: 45%;
-    display: inline-block;
     border-radius: 50%;
 }
 
